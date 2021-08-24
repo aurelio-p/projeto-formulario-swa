@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Formulario</title>
+	</head>
+	<body>
+		<div class="container"> 	
+
+			<h1>Teste de Conhecimentos</h1>
+			<hr class="linha">
+
+
+			<form action="grafico.html" method="GET" id="meu-form">
+
+				<h2>Conhecimentos em Matemática</h2>
+		
+				<label>01. Quanto é 2 + 2?</label><br/>
+				
+				<input type="checkbox" name="matematica1" value="4" onclick="onlyOne(this)"> 4 <br/>
+				<input type="checkbox" name="matematica1" value="5" onclick="onlyOne(this)"> 5 <br/>
+				<input type="checkbox" name="matematica1" value="6" onclick="onlyOne(this)"> 6 <br/>
+				<hr>
+		
+				<label>02. Quanto é 20 * 10?</label><br/>
+		
+				<input type="checkbox" name="matematica2" value="200" onclick="onlyOne(this)"> 200 <br/>
+				<input type="checkbox" name="matematica2" value="500" onclick="onlyOne(this)"> 500 <br/>
+				<input type="checkbox" name="matematica2" value="600" onclick="onlyOne(this)"> 600 <br/>
+				<hr>
+		
+				<label>03. Quanto é 50 - 100?</label><br/>
+		
+				<input type="checkbox" name="matematica3" value="-50" onclick="onlyOne(this)"> -50 <br/>
+				<input type="checkbox" name="matematica3" value="-10" onclick="onlyOne(this)"> -10 <br/>
+				<input type="checkbox" name="matematica3" value="-60" onclick="onlyOne(this)"> -60 <br/>
+		
+		
+				<h2>Conhecimentos em História</h2>
+		
+				<label>01. Quem descobriu o Brasil?</label><br/>
+		
+				<input type="checkbox" name="historia1" value="Machado de Assis" onclick="onlyOne(this)"> Machado de Assis <br/>
+				<input type="checkbox" name="historia1" value="Pero Vaz de Caminha" onclick="onlyOne(this)"> Pero Vaz de Caminha <br/>
+				<input type="checkbox" name="historia1" value="Pedro Alvares Cabral" onclick="onlyOne(this)"> Pedro Alvares Cabral <br/>
+				<hr>
+				
+				<label>02. Quem foi Cristóvão Colombo?</label><br/>
+		
+				<input type="checkbox" name="historia2" value="Comandante da frota espanhola que chegou às terras do “Novo Mundo”, em 12 de outubro de 1492" onclick="onlyOne(this)">Comandante da frota espanhola que chegou às terras do “Novo Mundo”, em 12 de outubro de 1492 <br/>
+				<input type="checkbox" name="historia2" value="Inventor do avião" onclick="onlyOne(this)">Inventor do avião <br/>
+				<input type="checkbox" name="historia2" value="Antigo Deus do Egito" onclick="onlyOne(this)">Antigo Deus do Egito <br/>
+				<hr>
+				
+				<label>03. Qual o período que aconteceu a 2ª Guerra Mundial?</label><br/>
+		
+				<input type="checkbox" name="historia3" value="2015 à 2020" onclick="onlyOne(this)"> 2015 à 2020 <br/>
+				<input type="checkbox" name="historia3" value="1939 à 1945" onclick="onlyOne(this)">1939 à 1945 <br/>
+				<input type="checkbox" name="historia3" value="1999 à 2005" onclick="onlyOne(this)">1999 à 2005 <br/>
+				
+				
+				<h2>Conhecimentos em Geografia</h2>
+		
+				<label>01. Qual ecossitema predomina no estado de Minas Gerais?</label><br/>
+		
+				<input type="checkbox" name="geografia1" value="Mata Atlântica" onclick="onlyOne(this)"> Mata Atlântica <br/>
+				<input type="checkbox" name="geografia1" value="Caatinga" onclick="onlyOne(this)"> Caatinga <br/>
+				<input type="checkbox" name="geografia1" value="Cerrado" onclick="onlyOne(this)"> Cerrado <br/>
+				<hr>
+				
+				<label>02. Quais o menor e o maior país do mundo?</label><br/>
+		
+				<input type="checkbox" name="geografia2" value="São Marino e Índia" onclick="onlyOne(this)">São Marino e Índia<br/>
+				<input type="checkbox" name="geografia2" value="Vaticano e Rússia" onclick="onlyOne(this)">Vaticano e Rússia<br/>
+				<input type="checkbox" name="geografia2" value="Nauru e China" onclick="onlyOne(this)">Nauru e China<br/>
+				<hr>
+				
+				<label>03. Quais os países que têm a maior e a menor expectativa de vida do mundo?</label><br/>
+		
+				<input type="checkbox" name="geografia3" value="Austrália e Afeganistão" onclick="onlyOne(this)"> Austrália e Afeganistão <br/>
+				<input type="checkbox" name="geografia3" value="Brasil e Congo" onclick="onlyOne(this)"> Brasil e Congo <br/>
+				<input type="checkbox" name="geografia3" value="Japão e Serra Leoa" onclick="onlyOne(this)"> Japão e Serra Leoa <br/>
+				
+				<button type="submit" form="meu-form" class="save">Enviar</button>
+				<button type="submit" form="meu-form" class="cancel">Cancelar</button>
+
+			</form>
+
+		</div>
+	</body>
+
+	<script type="text/javascript" src="formulario.js"></script>
+	
+</html>

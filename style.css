@@ -1,0 +1,153 @@
+@font-face {
+		font-family: "Ubuntu";
+		src: url("fonts/Ubuntu-R.ttf")
+}
+
+body {
+		font-family: "Ubuntu";
+}
+
+h1 {
+		height: 37px;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 32px;
+		line-height: 37px;
+		color: #1B50B6;
+}
+
+.container {
+		position: absolute;
+		width: 860px;
+		height: 2092px;
+		left: 290px;
+		top: 60px;
+		background: #FFFFFF;
+		border-radius: 12px;
+}
+	
+h2 {
+		height: 28px;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 28px;
+		color: #222222;
+}
+	
+label {
+		width: 133px;
+		height: 18px;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 50px;
+		color: #222222;
+}
+	
+input[type="checkbox"] {
+		text-align: right;
+		margin-top: 10px;
+        margin-bottom: 10px;
+		left: 384;
+		right: 12.5%;
+		top: 502;
+		bottom: 12.5%;
+		background: #222222;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 11px;
+		color: #000000;
+}
+	
+.return {
+		font-family: Ubuntu;
+		float: left;
+		word-spacing: 10px;
+		margin-top: 50px;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 18px;
+		color: #1B50B6;
+		border: none;
+		background: #FFFFFF;
+		width: auto;
+}
+	
+.linha {
+		height: 4px;
+		left: 350px;
+		background: #1B50B6;
+}
+
+.save {
+		font-family: Ubuntu;
+		float: right;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 13px;
+		color: #FFFFFF;
+		width: 235px;
+		height: 56px;
+		border: none;
+		background: #1B50B6;
+		border-radius: 8px;
+		margin-top: 60px;
+}
+
+.cancel {
+		font-family: Ubuntu;
+		float: right;
+		border: none;	
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		color: #1B50B6;
+		background: #FFFFFF;
+		line-height: 13px;
+		height: 56px;
+		margin-top: 60px;
+		margin-right: 72px;
+}
+
+button {
+		margin-top: 72px;
+		width: 235px;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		height: 56px;
+		left: 673px;
+		top: 1002px;
+		font-family: Ubuntu;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 18px;
+		color: #1B50B6;
+		background: #FFFFFF;
+		border-radius: 8px;
+		border-color: #1B50B6;
+}
+
+p {
+		margin-top: 72px;
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+	
+}
+
+.congratulations {
+		color: #222222;
+}
+
+#resultadoFinal {
+		color: #008000;
+}
+
+.erro + span {
+		color:red;
+}
